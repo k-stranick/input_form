@@ -1,0 +1,30 @@
+fgds,gfds,javafx.util.converter.LocalDateStringConverter@496607ff,fgds,gfds,gfds,gfds
+kyle stranick,3022288022,javafx.util.converter.LocalDateStringConverter@7520cc9c,kstranic@dtcc.edu,20559 overman way ,milsboro,StatesChoiceBox[id=statesChoiceBox, styleClass=choice-box]
+test,test,Value(YearOfEra,3,19,NORMAL)'-'Value(MonthOfYear,2)'-'Value(DayOfMonth,2),test,test,test,StatesChoiceBox[id=statesChoiceBox, styleClass=choice-box]
+Kyle Stranick,302-228-8022,1989-12-27,kstranic@gmail.com,2059 overman way ,Millsboro ,DE
+Kyle,2222222222,1989-12-27,kstranic@dtcc.edu,123456123 fds,milld,Select a State,fdsafdsa
+test,test,1989-12-27,test,123456,test,Select a State,TEEESSSSSSSSSSTTTTTTTTTTTTTTTTTTTTTT
+test,test,1989-12-27,test,test,city,DE,test
+ test,test,1989-12-27,test@test.net,1234 test street ,testviille,DE,19966
+hgfd,hgf,2024-04-11,hgfd,hgfd,fgd,LA,hgfd
+,,No Date Entered,,,,Select a State,,
+nbvcnbvc,bvc,No Date Entered,nbv,nbvc,bnvc,Select a State,,    nnbxvnbv
+nbvcnbvc,bvc,No Date Entered,nbv,nbvc,bnvc,MI,  cxz,    nnbxvnbv
+,,No Date Entered,,,,Select a State,,
+,,DatePicker@139f4ad4[styleClass=combo-box-base date-picker],,,,Select a State,,
+Kyle Stranick,302-228-8022,1999-12-17,gfdsa,gfdsa,gfds,MI,4456,gfdsgfds
+,,No Date Entered,,,,Select a State,,
+,,No Date Entered,,,,Select a State,,
+,,No Date Entered,,,,NM,,
+fds,fds,No Date Entered,fds,fds,fds,Select a State,fds,fds
+fdsa,fdsa,No Date Entered,fds,fds,fdsa,No State Selected,gtrew,trew
+new test with classes,phone,2024-04-05,fdsa,vczxd,fdsa,Select a State,bvcx,vbcx
+this is a testttt,gfds,2024-04-23,fgds,gfds,ghfds,No State Selected,gfds,gfdsgfds
+testing for no state selection ,must have a date or null pointer ,2024-04-17,GFDSGFDS,dfsa,gfds,Select a State,gfds,gfsdgfdsgfdsgfdsgfds
+leaving state blank again,dsa,2024-04-22,FDSGFD,HGFDHGFD,GFDS,No State Selected,jhgfjhgf,jhgfjhgf
+testing submit clear,ytre,2024-04-11,tyre,ytre,ytre,No State Selected,ytreytre,ytreytre
+will this letme resubmit?? ,rewq,2024-04-09,rewq,rewq,rewq,MI,rewq,rewqrewq
+testing better logic for submit button,rewqrewq,2024-04-11,fdsa,fdsa,fdsa,NV,fdsafdsa,gfdsgfdsgfdsgfds
+still checking if the submit button refactor works ,gfds,2024-04-12,gfds,gfds,fdg,No State Selected,gfdsgfs,gfdsgfdsgfds
+testing alert? maybe make save a popup??? ,fdsa,2024-04-11,gfds,gfds,gfds,MS,gfdsgf,gfdsgfdsgfds
+,,2024-04-25,,,,No State Selected,,dsa

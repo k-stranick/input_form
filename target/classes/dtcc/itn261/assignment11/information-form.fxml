@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import dtcc.itn261.assignment11.CustomButtons?>
+<?import dtcc.itn261.assignment11.StatesChoiceBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<!-- Had to add custom choiceBox Class -->
+
+<Pane focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="556.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dtcc.itn261.assignment11.FormController">
+    <children>
+        <MenuBar prefHeight="14.0" prefWidth="600.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem fx:id="closeMenuItem" mnemonicParsing="false" onAction="#closeProgram" text="Close" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" onAction="#showHelp" text="Help">
+                    <items>
+                        <MenuItem fx:id="helpMenu" mnemonicParsing="false" text="About" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <Label alignment="CENTER" layoutX="7.0" layoutY="38.0" prefHeight="44.0" prefWidth="586.0" text="General Information Form">
+            <font>
+                <Font name="Goudy Old Style" size="35.0" />
+            </font>
+        </Label>
+        <Separator layoutY="74.0" prefHeight="25.0" prefWidth="600.0" />
+        <Separator layoutX="283.0" layoutY="85.0" orientation="VERTICAL" prefHeight="233.0" prefWidth="19.0" />
+        <VBox layoutX="300.0" layoutY="91.0" prefHeight="158.0" prefWidth="290.0">
+            <children>
+                <TextField fx:id="nameTextField" prefHeight="21.0" prefWidth="290.0" promptText="Enter Name Here">
+                    <VBox.margin>
+                        <Insets bottom="10.0" />
+                    </VBox.margin>
+               <font>
+                  <Font name="Goudy Old Style" size="12.0" />
+               </font>
+                </TextField>
+                <TextField fx:id="phoneTextField" layoutX="10.0" layoutY="10.0" promptText="Enter Phone Number Here ">
+                    <VBox.margin>
+                        <Insets bottom="10.0" />
+                    </VBox.margin>
+               <font>
+                  <Font name="Goudy Old Style" size="12.0" />
+               </font>
+                </TextField>
+            <DatePicker fx:id="birthdayDatePicker" editable="false" prefHeight="25.0" prefWidth="293.0" promptText="Select A Date">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </DatePicker>
+                <TextField fx:id="emailTextField" layoutX="10.0" layoutY="80.0" promptText="Enter Email Address Here">
+                    <VBox.margin>
+                        <Insets bottom="10.0" />
+                    </VBox.margin>
+               <font>
+                  <Font name="Goudy Old Style" size="12.0" />
+               </font>
+                </TextField>
+                <TextField fx:id="streetAddressTextField" layoutX="10.0" layoutY="105.0" promptText="Enter Street Address Here">
+               <font>
+                  <Font name="Goudy Old Style" size="12.0" />
+               </font></TextField>
+            </children>
+        </VBox>
+        <HBox layoutX="300.0" layoutY="249.0" prefHeight="17.0" prefWidth="290.0" spacing="25.0">
+            <children>
+                <Label prefHeight="17.0" prefWidth="102.0" text="City:">
+               <font>
+                  <Font name="Goudy Old Style" size="12.0" />
+               </font></Label>
+                <Label prefHeight="17.0" prefWidth="100.0" text="State:">
+               <HBox.margin>
+                  <Insets left="12.0" />
+               </HBox.margin></Label>
+            <Label prefHeight="17.0" prefWidth="70.0" text="Zip Code:">
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Goudy Old Style" size="12.0" />
+               </font>
+            </Label>
+            </children>
+        </HBox>
+        <HBox layoutX="300.0" layoutY="266.0" prefHeight="25.0" prefWidth="290.0" spacing="8.0">
+            <children>
+                <TextField fx:id="cityTextField" prefHeight="25.0" prefWidth="110.0" promptText="Enter City Here">
+               <font>
+                  <Font name="Goudy Old Style" size="12.0" />
+               </font></TextField>
+                <StatesChoiceBox fx:id="statesChoiceBox" prefHeight="25.0" prefWidth="96.0" />
+            <TextField fx:id="zipCodeField" prefHeight="25.0" prefWidth="61.0" promptText="Zip Code">
+               <font>
+                  <Font name="Goudy Old Style" size="12.0" />
+               </font>
+            </TextField>
+            </children>
+        </HBox>
+        <Separator layoutY="311.0" prefHeight="14.0" prefWidth="600.0" />
+        <VBox layoutX="7.0" layoutY="325.0" prefHeight="172.0" prefWidth="586.0">
+            <children>
+                <Label text="Notes:">
+               <font>
+                  <Font name="Goudy Old Style" size="12.0" />
+               </font></Label>
+                <TextArea fx:id="notesTextArea" prefHeight="158.0" prefWidth="586.0" promptText="Enter Notes Here">
+               <font>
+                  <Font name="Goudy Old Style" size="12.0" />
+               </font></TextArea>
+            </children>
+        </VBox>
+        <Separator layoutY="497.0" prefHeight="14.0" prefWidth="600.0" />
+        <VBox layoutX="14.0" layoutY="91.0" prefHeight="172.0" prefWidth="100.0">
+            <children>
+                <HBox prefHeight="33.0" prefWidth="100.0">
+                    <children>
+                        <Label prefHeight="17.0" prefWidth="43.0" text="Name:">
+                            <HBox.margin>
+                                <Insets bottom="10.0" />
+                            </HBox.margin>
+                     <font>
+                        <Font name="Goudy Old Style" size="12.0" />
+                     </font>
+                        </Label>
+                    </children>
+                </HBox>
+                <HBox layoutX="10.0" layoutY="10.0" prefHeight="34.0" prefWidth="100.0">
+                    <children>
+                        <Label prefHeight="8.0" prefWidth="84.0" text="Phone Number:">
+                            <HBox.margin>
+                                <Insets bottom="10.0" />
+                            </HBox.margin>
+                     <font>
+                        <Font name="Goudy Old Style" size="12.0" />
+                     </font>
+                        </Label>
+                    </children>
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                </HBox>
+                <HBox layoutX="10.0" layoutY="33.0" prefHeight="30.0" prefWidth="100.0">
+                    <children>
+                        <Label prefHeight="14.0" prefWidth="47.0" text="Birthday:">
+                            <HBox.margin>
+                                <Insets bottom="10.0" />
+                            </HBox.margin>
+                        </Label>
+                    </children>
+                </HBox>
+                <HBox layoutX="10.0" layoutY="56.0" prefHeight="33.0" prefWidth="100.0">
+                    <children>
+                        <Label prefHeight="30.0" prefWidth="77.0" text="Email Address:">
+                            <HBox.margin>
+                                <Insets bottom="10.0" />
+                            </HBox.margin>
+                        </Label>
+                    </children>
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                </HBox>
+                <HBox layoutX="10.0" layoutY="79.0" prefHeight="36.0" prefWidth="100.0">
+                    <children>
+                        <Label prefHeight="26.0" prefWidth="46.0" text="Address:">
+                            <HBox.margin>
+                                <Insets bottom="10.0" />
+                            </HBox.margin>
+                        </Label>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+        <CustomButtons fx:id="clearButton" layoutX="534.0" layoutY="511.0" onAction="#initialize" prefHeight="25.0" prefWidth="53.0" text="Clear">
+         <font>
+            <Font name="Goudy Old Style" size="12.0" />
+         </font></CustomButtons>
+        <CustomButtons fx:id="submitButton" layoutX="448.0" layoutY="511.0" onAction="#initialize" prefHeight="25.0" prefWidth="77.0" text="Submit" textAlignment="CENTER">
+         <font>
+            <Font name="Goudy Old Style" size="12.0" />
+         </font></CustomButtons>
+    </children>
+</Pane>
